@@ -5,7 +5,7 @@
 
 body{
     margin-top: 7rem;
-    background: rgb(0, 0, 0);
+    background: rgb(25, 25, 25);
 }
 
 .false_nav{
@@ -35,3 +35,50 @@ li{
     list-style: none;
 }
 
+h1{
+    text-decoration: underline rgb(130, 130, 130);
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5% 1%;
+}
+
+.main-left{
+    font-size: 2vw;
+}
+
+.main-left > .main-left-container > h3,
+.main-left > .main-left-container > p{
+    margin: 5px 0 10px;
+}
+
+.main-left > .main-left-container > h3{
+    font-size: 6.4vw;
+}
+
+.main-left > .main-left-container > h4{
+    margin: 0;
+    color: rgb(0, 0, 255);
+    font-size: 115%;
+}
+
+.main-left > .main-left-container > p{
+    font-size: 75%;
+}
+
+.main-right > img{
+    width: 50vw;
+}
+
+.proto_footer{
+    margin: 0 0.5% 35px;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    background: rgb(0, 0, 0);
+}
