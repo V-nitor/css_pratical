@@ -46,6 +46,7 @@ li{
 }
 
 h1{
+    text-align: center;
     text-decoration: underline rgb(130, 130, 130);
 }
 
@@ -135,4 +136,80 @@ button:hover{
 
 .investor-container > img{
     width: 60px;
+}
+
+/* ------------------- Media Screen ------------------- */
+
+@media screen and (max-width: 615px) {
+    body{
+        margin: 110px 0 0;
+        overflow-x: hidden;
+    }
+
+    .false_nav{
+        justify-content: space-evenly;
+        padding: 5px 0;
+    }
+
+    h1{
+        font-size: 20px;
+    }
+
+    main{
+        flex-direction: column;
+        margin: 0 5%;
+    }
+
+    .main-left{
+        font-size: 15px;
+    }
+
+    .main-left > .main-left-container > h3,
+    .main-left > .main-left-container > p{
+    margin: 10px 0 20px;
+    }
+
+    .main-left > .main-left-container > h3{
+        font-size: 40px;
+    }
+    
+    .main-left > .main-left-container > h4{
+        font-size: 17.25px;
+    }
+
+    .main-right > img{
+        margin-bottom: 40px;
+    }
+
+    .proto_footer{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        border-radius: 0;
+    }
+
+    .proto_footer_left{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn-container > button{
+        height: 30px;
+    }
+
+    .proto_footer_right{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .proto_footer_right{
+        width: 100%;
+    }
+
+    .proto_footer_right > .investor > .investor-container{
+        justify-content: space-around;
+        width: 90vw;
+    }
 }
